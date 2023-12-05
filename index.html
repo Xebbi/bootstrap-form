@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+  </head>
+  <body style="background-color: gainsboro;">
+    <div class="container mt-4">
+      <div class="border raunted p-2 bg-info">
+        <form class="row g-3">
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="input1">First name*</label>
+            <input
+              type="text"
+              class="form-control w-75"
+              id="example1"
+              placeholder="First Name"
+              name="First name"
+              required
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="input1">Last name (option)</label>
+            <input
+              type="text"
+              class="form-control w-75"
+              id="example1"
+              placeholder="Last Name"
+              name="Last name"
+            
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="input1">Date of Birth*</label>
+            <input
+              type="date"
+              class="form-control w-75"
+              id="example1"
+              placeholder="Date of Birth"
+              name="Date of birth"
+              required
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="city">City*</label>
+            <select
+              class="form-select w-75"
+              aria-label="Default select example"
+              name="City"
+              id="exampleformcontrol"
+              disabled
+              required
+            >
+              <option>Open this selekt menu</option>
+              <option value="usa">Usa</option>
+              <option value="ru">Russia</option>
+              <option value="uz" selected>Uzbekistan</option>
+              <option value="pa">Pakistan</option>
+              <option value="kz">Kazahstan</option>
+            </select>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="input1">Email address*</label>
+            <input
+              type="email"
+              class="form-control w-75"
+              id="example5"
+              placeholder="name@example.com"
+              name="email"
+              required
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="input1">Password*</label>
+            <input
+              type="password"
+              class="form-control w-75"
+              aria-describedby="passwordHelpBlock"
+              id="example6"
+              placeholder="Write ypur password"
+              name="password"
+              required
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label d-block" for="input1">Gender (option) :</label>
+            <label class="form-label" for="input1">Men</label>
+            <input
+              type="radio"
+              class=""
+              aria-describedby="passwordHelpBlock"
+              id="example6"
+              placeholder="Write ypur password"
+              name="men"
+            />
+            <br>
+            <label class="form-label" for="input1">Women</label>
+            <input
+              type="radio"
+              class=""
+              aria-describedby="passwordHelpBlock"
+              id="example6"
+              placeholder="Write ypur password"
+              name="not"
+            />
+            <br>
+            <label class="form-label" for="example6 ">not specified</label>
+            <input
+              type="radio"
+              class=""
+              aria-describedby="passwordHelpBlock"
+              id="example6"
+              placeholder="Write ypur password"
+              name="women"
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="input1">Married (option)</label>
+            <input
+              type="checkbox"
+              class=""
+              aria-describedby="passwordHelpBlock"
+              id="example6"
+              placeholder="Write ypur password"
+              name="Married"
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="input1">PhoneN (option)</label>
+            <input
+              type="tel"
+              class=""
+              aria-describedby="passwordHelpBlock"
+              id="example6"
+              placeholder="+998 (88) 125-05-50"
+              name="PhoneN"
+              pattern="[+]{1}-[0-9]{3}-[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}"
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label for="exampleColorInput" class="form-label">Laptopcolor*</label>
+            <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color" required>
+           
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="input1">Image*</label>
+            <input
+              type="file"
+              class=""
+              aria-describedby="passwordHelpBlock"
+              id="example6"
+              name="image"
+              required
+              accept="image/*"
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label d-block" for="input1">Feedback (option)</label>
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="50"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <button class="bg-danger" name="submit" type="submit">Submit</button>
+            <button class="bg-gradient" name="Reset" type="submit">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
